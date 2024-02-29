@@ -1,10 +1,9 @@
 import { UserButton } from "@clerk/nextjs";
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="h-screen">
-      <h1>home</h1>
-      <p>This is protecte page</p>
+    <div className=" ">
+      <h1>Home</h1>
       <UserButton afterSignOutUrl="/" />
     </div>
   );
